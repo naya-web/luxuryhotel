@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXURY HOTEL</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Start home and navbare -->
+  <div class="home" id="home">
+      <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#">
+            <h4 class="text-light">LuxuryHotel</h4>
+          </a>
+
+          <!-- Offcanvas button -->
+          <div class="navbar-toggler ms-auto me-2  " type="button"  data-bs-toggle="offcanvas" data-bs-target="#myOffcanvas" aria-controls="myOffcanvas"  >
+            <i class="fas fa-bars text-white fs-3"></i>
+          </div>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a  href="" class="nav-link dropdown-toggle" data-bs-auto-close="outside" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ROOMS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">      
+                  <li class="nav-item dropdown dropend">
+                    <a class="nav-link dropdown-toggle tog" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      King Bedroom
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li ><a class="dropdown-item " href="rooms.html">King Bedroom</a></li>
+                      <li ><a class="dropdown-item " href="rooms.html">Queen & Double Bedroom</a></li>
+                      <li ><a class="dropdown-item " href="rooms.html">Le Volla Suite</a></li>
+                    </ul>
+                  </li>
+      
+                  <li><a class="dropdown-item" href="rooms.html">Queen & Double Bedroom</a></li>
+                  <li><a class="dropdown-item" href="rooms.html">Le Volla Suite</a></li>
+                </ul>
+                
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="amenites.html">AMENITIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="social-icons d-none d-lg-block">
+            <i class="fa fa-search rounded-circle me-1 " id="search-btn"></i>
+            <i class="fab fa-facebook rounded-circle"></i>
+            <i class="fab fa-twitter mx-1 rounded-circle"></i>
+            <i class="fab fa-instagram rounded-circle"></i>
+          </div>
+        </div>
+      </nav> 
+
+
+
+      <!-- Start offcanvas  -->
+      <div class="offcanvas">
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="myOffcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header ">
+          <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <nav class="navbar">
+            <ul class="navbar-nav w-100">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="rooms.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                  ROOMS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">King Bedroom</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-danger" href="#">King Bedroom</a></li>
+                      <li><a class="dropdown-item" href="#">Queen & Double Bedroom</a></li>
+                      <li><a class="dropdown-item" href="#">Le Volla Suite</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Queen & Double Bedroom</a></li>
+                  <li><a class="dropdown-item" href="#">Le Volla Suite</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="amenites.html">AMENITIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- End offcanvas  -->
+
+
+
+    <!-- Start carousel  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active silder-btn" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="silder-btn"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="silder-btn"></button>
+      </div> -->
+      <div class="carousel-inner bg-dark vh-100">
+        <div class="carousel-item active text-light text-center">
+          <div class="overlay w-100 h-100"></div>
+          <img src="./images/slider_2.jpg" class="d-block w-100 h-100" alt="...">
+          <div class=" carousel-p">
+            <h1 class="  mt-5">Luxury Hotel</h1>
+            <p class="fs-4 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci numquam officiis natus.</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="overlay w-100 h-100"></div>
+          <img  src="./images/slider_1.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="d-flex align-items-center carousel-p">
+            <h1 class="text-light text-center">Enjoy your stay</h1>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="overlay w-100 h-100"></div>
+          <img src="./images/slider-3-a.jpg" class="d-block w-100 h-100 " alt="...">
+          <div class="d-flex align-items-center carousel-p">
+            <h1 class=" text-light text-center">Away from the Hustle and Busyle of City Life</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div> 
+      <!-- End carousel  -->
+
+  </div>
+  <!-- End home and navbare -->
+
+
+
+  <!-- Start Featured Rooms -->
+  <div class="featured-rooms container my-5">
+    <h1 class="w-100 text-center ">Featured Rooms</h1>
+    <hr class="mx-auto ">
+    <div class="row mx-0 my-5 pb-5">
+      <div class="col-lg-8 ">
+        <div class="images">
+          <img class="img2" src="./images/room_1_a.jpg" alt="">
+          <img class="img1" src="./images/room_1_b.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex align-items-center justify-content-center ps-5 mt-5 mt-lg-0">
+        <div>
+          <h1 class="text-center text-lg-start">King </h1>
+          <h1 class="text-center text-lg-start"> Bedroom</h1>
+          <p class="text-secondary my-4">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a class="text-center" href="">ROOM DETAILS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mx-0 my-5 pt-5">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center ps-5 ">
+        <div>
+          <h1 class="text-center text-lg-start">Queen & </h1>
+          <h1 class="text-center text-lg-start"> Double</h1>
+          <h1 class="text-center text-lg-start"> Bedroom</h1>
+          <p class="text-secondary my-4">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a class="text-center" href="">ROOM DETAILS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <div class="images">
+          <img class="img3" src="./images/room_2_a.jpg" alt="">
+          <img class="img4" src="./images/room_2_b.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Featured Rooms -->
+
+
+  <!-- Start Hotel Amenities -->
+  <div class="amenities container my-5 pt-5">
+    <h1 class="w-100 text-center "> Hotel Amenities</h1>
+    <hr class="mx-auto ">
+    <div class="row mx-0 mt-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/parking.svg" alt="">
+              <h5 class="fs-5 mb-4">Free Self-Parking</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/internet.svg" alt="">
+              <h5 class="fs-5 mb-4">High speed Internet access</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/wifi.svg" alt="">
+              <h5 class="fs-5 mb-">Complimentary WiFi in public areas</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5">
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/elevator.svg" alt="">
+              <h5 class="fs-5 mb-4">Elevators</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5"  >
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/partners.svg" alt="">
+              <h5 class="fs-5 mb-4">Meeting rooms</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5">
+        <div class="card text-center p-5">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img class="w-25 mb-4" src="./images/svg/washing-machine.svg" alt="">
+              <h5 class="fs-5 mb-4">Laundry and Valet service</h5>
+              <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </div>
+  <!-- End Hotel Amenities -->
+
+
+  <!-- Start news and events -->
+  <div class="news-events container my-5">
+    <div class="row mx-0 pt-5">
+      <div class="col-lg-4 p-3">
+        <h1 >News & Events</h1>
+        <hr>
+        <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis.</p>
+        <a href="">ALL POSTS</a>
+      </div>
+
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <img class="w-100 mb-5" src="./images/img_1.jpg" alt="">
+        <p class="fw-bold fs-5">How algorithms shape our world</p>
+        <span class="text-secondary">December 20, 2019 • by</span>
+        <span class="name">Joefrey Mahusay</span>
+        <p class="text-secondary mt-3">A hotel is an establishment that provides paid lodging on a short-term basis.</p>
+        <a href="">READ MORE</a>
+      </div>
+
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <img class="w-100 mb-5" src="./images/img_3.jpg" alt="">
+        <p class="fw-bold fs-5">How algorithms shape our world</p>
+        <span class="text-secondary">December 20, 2019 • by</span>
+        <span class="name">Joefrey Mahusay</span>
+        <p class="text-secondary mt-3">A hotel is an establishment that provides paid lodging on a short-term basis.</p>
+        <a href="">READ MORE</a>
+      </div>
+    </div>
+  </div>
+  <!-- End news and events -->
+
+
+  <!-- Start contact -->
+  <div class="contact py-5 d-flex align-items-center justify-content-center fs-3 px-5 px-lg-0">
+    <p>If you have any special requests, please feel free to call us. <a href="">+12.345.678.9012</a></p>
+  </div>
+  <!-- End contact -->
+
+
+  <!-- start footer  -->
+  <div class="footer container my-5 pt-5">
+    <div class="row mx-0">
+      <div class="col-sm-4 px-4 text-center text-sm-start">
+          <h4 class="mb-4">About Us</h5>
+          <p class="text-secondary">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+          <a class="more" href="">READ MORE</a>
+      </div>
+
+      <div class="col-sm-2 navigation text-center text-sm-start mt-5 mt-sm-0">       
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Rooms</a></li>
+          <li><a href="">Amenities</a></li>
+          <li><a href="">Gallary</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 px-md-5 mt-5 mt-md-0">
+        <div class="d-md-flex justify-content-between text-center text-md-start">
+          <div class="address">
+            <h4>Address</h4>
+            <p class="text-secondary">273 South Riverview Rd.</p>
+            <p class="text-secondary">New York, NY 10011</p>
+          </div>
+          <div class="tel mt-5 mt-md-0">
+            <h4>Telephone</h4>
+            <p class="text-secondary">+1 234 5678 910</p>
+            <p class="text-secondary">+2 234 5678 910</p>
+          </div>
+        </div>
+          <h4 class="mt-4">Join our newsletter</h4>
+          <p class="text-secondary">Be the first to know our latest updates and news!</p>
+          <input class="p-2 mb-3 w-75" type="email" placeholder="Enter your email">
+          <button class="sub px-3 py-2 text-light fw-bold">Subscribe</button>
+      </div>
+    
+    </div>
+
+
+    <div class="row mx-0 mt-5">
+      <div class="col-md-8">
+        <p class="text-secondary">Copyright &copy; 2023 Naya Al-Naqula . All Rights Reserved. Design by <span class="h5 fw-bold naya"> Naya Al-Naqula</span></p>
+      </div>
+      <div class="col-md-4 text-md-end text-start mt-2 mt-md-0">
+        <i class="fab fa-facebook rounded-circle"></i>
+        <i class="fab fa-twitter mx-1 rounded-circle"></i>
+        <i class="fab fa-instagram rounded-circle"></i>
+        <!-- <i class="fab fa-instagram rounded-circle"></i> -->
+        <img class="tripadvisore" src="./images/social.png" alt="">        
+      </div>
+    </div>
+  </div>
+  <!-- end footer  -->
+
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>   
+    <script src="./js/script.js"></script>
+</body>
+</html>

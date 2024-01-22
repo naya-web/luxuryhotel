@@ -1,0 +1,598 @@
+/* Start home*/
+/* Start navbare */
+nav{
+    position: absolute;
+}
+nav ul li a{
+    color: #fff !important;
+    font-size: 14px;
+    margin: 0 15px !important;
+    padding-bottom: 20px !important;
+    display: inline-block !important;
+}
+.dropdown-menu li{
+    padding: 0 20px;
+}
+.dropdown-menu li:hover{
+    border-bottom: none;
+    background-color: #ff896b!important;
+}
+.dropdown-menu li a:hover{
+    background-color: #ff896b !important;
+}
+.dropdown-menu li a{
+    color: black !important;
+}
+nav ul li{
+    transition: .5s;
+}
+nav ul li:hover{
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+nav ul li .active{
+    /* border-bottom: 1px solid #fff; */
+}
+.social-icons i{
+    padding: 8px;
+    background-color: #eeeeeec0 !important;
+    transition: .5s;
+}
+.social-icons i:hover{
+    background-color: #fff !important;
+}
+.home{
+    position: relative;
+}
+.home .input-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.close:hover{
+    opacity: .6;
+    transition: .5s;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 90%;
+    padding: 30px;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+.input:focus{
+    outline: none;
+}
+.offcanvas-body ul li a{
+    color: gray;
+}
+.navbar-scrolled{
+    background-color: #fff !important; 
+    color: black;
+}
+.navbar-scrolled ul li a{
+    color: black !important;
+}
+.navbar-scrolled .navbar-brand h4{
+    color: black !important;
+}
+.navbar-scrolled .social-icons i{
+    color: #fff;
+    background-color: black !important;
+}
+.navbar-scrolled .social-icons i:hover{
+    background-color: #ff896b !important;
+}
+.navbar-scrolled .navbar-toggler i{
+    color: black !important;
+}
+/* End navbare */
+
+/* Start carousel */
+.carousel-item{
+    position: relative;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-item .carousel-p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-item .carousel-p h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+.carousel-control-prev{
+    width: 5% !important;
+}
+.carousel-control-next{
+    width: 5% !important;
+}
+.silder-btn{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+/* End carousel */
+
+/* Start offcanvas  */
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    margin-top: -6px;
+    margin-left: 30px;
+    min-width: 250px;
+}
+.offcanvas ul li a{
+    color: black !important;
+    font-size: 17px;
+    font-weight: 500;
+    width: 80% !important;
+}
+.offcanvas ul li a:hover{
+    color: #ff896b !important;
+    background-color: #fff !important;
+}
+.offcanvas ul li:hover{
+    background-color: #fff !important;
+}
+/* End offcanvas  */
+/* End home */
+
+/* Start featured rooms */
+.featured-rooms hr{
+    width: 5%;
+    background-color: black ;
+    opacity: 1;
+    height: 1px !important;
+}
+.featured-rooms h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+}
+.images {
+    position: relative;
+}
+.img1{
+    width: 75%;
+    float: right;
+    margin-top: -70%;
+    position: relative;
+    z-index: -1;
+}
+.img2{
+    width: 55%;
+    float: left;
+}
+.featured-rooms a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.featured-rooms a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    padding-bottom: 8px;
+    transition: .5s;
+}
+.img3{
+    width: 75%;
+    float: left;
+    position: relative;
+    z-index: -1;
+}
+.img4{
+    margin-top: -70%;
+    width: 55%;
+    float: right;
+}
+/* End featured rooms  */
+
+
+/* Start Hotel Amenities */
+.amenities hr{
+    width: 5%;
+    background-color: black ;
+    opacity: 1;
+    height: 1px !important;
+}
+.amenities h5{
+    font-family: "Cormorant Garamond", serif;
+}
+.amenities a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 50%;
+}
+.amenities a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    padding-bottom: 8px;
+    transition: .5s;
+}
+.amenities .card:hover{
+    border: 1px solid black;
+    margin-top: -8px;
+    transition: .5s;
+}
+/* End Hotel Amenities */
+
+
+/* Start news and events  */
+.news-events hr{
+    width: 10%;
+    background-color: black ;
+    opacity: 1;
+    height: 1px !important;
+}
+.news-events a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 50%;
+}
+.news-events a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    padding-bottom: 8px;
+    transition: .5s;
+}
+.news-events h1{
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+}
+.news-events .name{
+    color: #ff896b;
+}
+/* End news and events  */
+
+
+/* Start contact */
+.contact{
+    background-color: #E6E6E6;
+    height: 40vh;
+    font-family: "Cormorant Garamond", serif;
+}
+.contact a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.contact a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #ff896b;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.contact a:hover{
+    color: black !important;
+}
+/* End contact */
+
+
+/* start footer  */
+.footer h4{
+    font-family: "Cormorant Garamond", serif;
+}
+.footer .more{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 50%;
+}
+.footer .more:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    padding-bottom: 8px;
+    transition: .5s;
+}
+.footer .navigation ul{
+    list-style: none;
+    position: relative;
+    padding: 0;
+}
+.footer .navigation ul li{
+    margin-bottom: 15px;
+
+}
+.footer .navigation ul li a{
+    text-decoration: none;
+    color: #707070;
+    position: relative;
+    transition: .5s;
+}
+.footer .navigation ul li a:hover{
+    color: black;
+    transition: .5s;
+}
+.footer .sub{
+    background-color: black;
+    border: none;
+}
+.footer .naya{
+    color: #ff896b;
+
+}
+.footer i{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin: 0 2px;
+    transition: .5s;
+}
+.footer i:hover{
+    opacity: .5;
+    /* background-color: #ff896b; */
+    transition: .5s;
+}
+.footer .tripadvisore{
+    width: 36px;
+    margin-bottom: 4px;
+    transition: .5s;
+}
+.footer .tripadvisore:hover{
+    opacity: .5;
+    transition: .5s;
+}
+
+/* end footer  */
+
+
+/* Start amenities page  */
+.home-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+}
+/* end amenities page  */
+
+/* start contact us page */
+.contact-nav ul li a{
+    color: black !important;
+    transition: .5s;
+}
+.contact-nav ul li a:hover{
+    border-bottom: 1px solid #ff896b;
+    transition: .5s;
+}
+.contact-nav .navbar-brand h4{
+    color: black !important;
+}
+.contact-div{
+    background-color: #F8F9FA;
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+}
+.contact-div h1{
+    font-size: 75px;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+}
+.contact-div p{
+    font-size: 22px;
+    width: 60%;
+    color: rgb(94, 93, 93);
+}
+.contact-form input{
+    border: 1px solid gray;
+}
+.contact-form input:focus{
+    outline: 1px solid black;
+    border: none;
+}
+.contact-form .form-btn{
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 50px;
+}
+.contact-social i{
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-social img{
+    width: 40px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.contact-info{
+    font-family: "Cormorant Garamond", serif;
+    color: #ff896b;
+    font-size: 35px;
+}
+.address{
+    font-family: "Cormorant Garamond", serif;
+}
+/* end contact us page */
+
+
+/* Start about page  */
+/* Start management */
+.management h1{
+    color: black;
+}
+.management hr{
+    opacity: 1;
+    width: 5%;
+}
+.management h4{
+    font-family: "Cormorant Garamond", serif;
+}
+/* End management */
+
+
+/* Start watch video  */
+.watch h1{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 53px;
+    color: black;
+    letter-spacing: 2px;
+}
+/* End watch video  */
+/* End about page  */
+
+
+/* Start rooms page  */
+/* start welcomming  */
+.welcomming h1{
+    font-family: "Cormorant Garamond", serif;
+    color: black;
+    font-size: 50px;
+}
+.welcomming p{
+    font-size: 18px;
+}
+/* start welcomming  */
+
+/* start king bedroom */
+.king h1,
+.king h3{
+    font-family: "Cormorant Garamond", serif;
+
+}
+/* end king bedroom */
+/* End rooms page  */
+
+
+/* start gallery page  */
+/* start slider gallery  */
+.gallery h1{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 50px;
+    color: black;
+}
+.gallery hr{
+    width: 5%;
+    opacity: 1;
+}
+
+.carousel-item img{
+    height: 800px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 50% !important;
+    height: 10%;
+    top: 90% !important;
+    display: flex;
+    justify-content: start !important;
+}
+.carousel-control-prev{
+    justify-content: end !important;
+}
+
+.carousel-indicators{
+    background-color: #ff896b !important;
+    position: absolute;
+    left: -5% !important;
+    width: 20%;
+}
+/* end slider gallery  */
+
+/* Start more galleries  */
+.gallery img{
+    cursor:  pointer !important;
+}
+
+.galleryOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.img-box{
+    width: 50%;
+    height: 60%;
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.close-img{
+    color: red;
+    position: absolute;
+    left: 72%;
+    top: 21%;
+    font-size: 25px;
+    /* background-color: #707070; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px 2px 0;
+    transition: .5s;
+
+}
+.close-img:hover{
+    background-color: red;
+    color: #fff;
+    transition: .5s;
+
+}
+.img-popup{
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+/* End more galleries  */
+/* end gallery page  */
